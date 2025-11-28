@@ -127,5 +127,7 @@ test('loads flags correctly', () async {
 
 ## License
 
-devepcam
+MIT License
+
+Copyright (c) 2025 Jhafet Cánepa
 
