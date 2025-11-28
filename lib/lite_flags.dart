@@ -25,4 +25,9 @@ class LiteFlags {
   bool isEnabled(String key) => get<bool>(key, false);
 
   void clear() => _flags.clear();
+
+  void reset() {
+    _flags.clear();
+    _loader = null;
+  }
 }
